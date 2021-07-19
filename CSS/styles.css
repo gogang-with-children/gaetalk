@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "reset.css";
-
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -19,11 +16,30 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "DungGeunMo";
+}
+
 body {
-  color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  background-color: var(--bg-color);
 }
 
 .main-screen {
   padding: 0px 25px;
+}
+
+:root {
+  --bg-color: #fff8db;
+  --purple-color: #d3d1ff;
+  --red-color: #e9c9c9;
+  --blue-color: #bdc5fc;
+  --main-color: #c7edd5;
 }

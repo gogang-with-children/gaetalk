@@ -1,6 +1,16 @@
 .user-component {
+  border: solid 1px green;
   justify-content: space-between;
 }
+
+.friends-screen__human .user-component {
+  margin: 15px 0px;
+}
+
+.user-component__column {
+  border: solid 1px black;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -50,4 +60,15 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__music-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: var(--main-color) 4px solid;
+  border-radius: 25px;
+  color: black;
+  font-size: 16px;
 }
