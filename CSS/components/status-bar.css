@@ -8,7 +8,7 @@
   box-sizing: border-box;
   justify-content: center;
   padding: 5px 3px;
-  background-color: tomato;
+  background-color: var(--red-color);
 }
 
 .status-bar__column {

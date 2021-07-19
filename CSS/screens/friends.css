@@ -2,15 +2,14 @@
   height: 15px;
 }
 .friends-screen::-webkit-scrollbar-thumb {
-  background-color: var(--bg-color);
+  background-color: var(--blue-color);
   background-clip: padding-box;
-  border: 2px solid transparent;
   border-radius: 10px;
 }
 .friends-screen::-webkit-scrollbar-track {
   background-color: var(--main-color);
   border-radius: 10px;
-  box-shadow: inset 0px 0px 5px rgba(164, 29, 22, 70%);
+  box-shadow: inset 0px 0px 5px rgba(206, 236, 215, 70%);
 }
 
 #friends-display-link {
@@ -31,7 +30,6 @@
 
 .friends-screen {
   padding: 0px 25px;
-  border: solid 1px red;
   height: 75vh;
   overflow-y: scroll;
 }
@@ -41,7 +39,6 @@
   margin-top: 25px;
   border-top: 1px solid rgb(0, 0, 0, 0.2);
   padding-top: 15px;
-  border: solid 1px red;
 }
 
 .friends-screen_channel-header {
@@ -58,7 +55,6 @@
   margin-top: 25px;
   border-top: 1px solid rgb(0, 0, 0, 0.2);
   padding-top: 15px;
-  border: solid 1px blue;
 }
 
 .friends-screen_human-header {
@@ -75,7 +71,6 @@
   flex-direction: column;
   height: 45px;
   justify-content: space-between;
-  border: solid 2px blue;
 }
 
 .user-component__status-message {

@@ -1,14 +1,9 @@
 .user-component {
-  border: solid 1px green;
   justify-content: space-between;
 }
 
 .friends-screen__human .user-component {
   margin: 15px 0px;
-}
-
-.user-component__column {
-  border: solid 1px black;
 }
 
 .user-component,
