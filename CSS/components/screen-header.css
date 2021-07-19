@@ -22,6 +22,6 @@
   }
 }
 
-.screen-header__icons .fa-cog:hover {
+.screen-header__icons span .fa-cog:hover {
   animation: rotateCog 2s linear infinite;
 }
