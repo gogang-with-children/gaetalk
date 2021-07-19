@@ -112,7 +112,15 @@
 
 }
 
+.last{
+  position:absolute;
+  top:450px;
+}
 
+.me-first{
+  position: absolute;
+  top: 30px;
+}
 
 .reply {
   position: fixed;
