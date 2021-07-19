@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
+  margin: 25px 0px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
 }
 
 .open-chat__header span {
@@ -77,4 +78,10 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+.open-post{
+  margin: 10px 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
