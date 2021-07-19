@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+.message_chat{
+  display: flex;
+  justify-content: flex-start;
+}
+
 .main-chat {
   display: flex;
   justify-content: center;
@@ -39,14 +44,14 @@
 
 .message-row:nth-child(3) {
   position: absolute;
-  top: 250px;
+  top: 270px;
 }
 
-.message-row img {
+.chat_img {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   padding: 0px 10px 0px 20px;
+  border-radius: 30%;
 }
 
 .message__author {
@@ -88,6 +93,15 @@
   background-color: yellow;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
+}
+
+.message_chat_last{
+  position: absolute;
+  top: 350px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .reply {
