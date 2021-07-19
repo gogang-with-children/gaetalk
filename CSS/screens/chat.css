@@ -72,7 +72,15 @@
   width: 50px;
   height: 50px;
   margin-left: 22px;
-  background-color: #e29c9c;
+  background-color: #bdc5fc;
+}
+
+.img_back{
+  border-radius: 30px;
+  width: 73px;
+  height: 73px;
+  background-color: #bdc5fc;
+  margin-right: 19px;
 }
 
 .message__author {
