@@ -37,3 +37,9 @@
 .others {
   justify-content: none;
 }
+.account__inf img{
+  width:100px;
+  height: 100px;
+  border-radius: 35%;
+  background-color: var(--red-color);
+}
