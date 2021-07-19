@@ -1,3 +1,4 @@
+@import "reset.css";
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
@@ -15,7 +16,6 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-@import "reset.css";
 
 @font-face {
   font-family: "DungGeunMo";
@@ -24,14 +24,13 @@
   font-weight: normal;
   font-style: normal;
 }
-
 * {
   font-family: "DungGeunMo";
 }
-
 body {
   background-color: var(--bg-color);
   margin: 0px;
+  font-family: "DungGeunMo";
 }
 
 .main-screen {
