@@ -40,12 +40,17 @@
 
 .message-row:nth-child(2) {
   position: absolute;
-  top: 150px;
+  top: 170px;
 }
 
 .message-row:nth-child(3) {
   position: absolute;
-  top: 273px;
+  top: 283px;
+}
+
+.message-row:nth-child(4) {
+  position: absolute;
+  top: 367px;
 }
 
 .chat_img {
@@ -85,6 +90,7 @@
 .message__time {
   opacity: 0.8;
   font-size: 13px;
+  margin: 0px 10px;
 }
 
 .message-row--own {
@@ -105,6 +111,8 @@
   flex-direction: row;
 
 }
+
+
 
 .reply {
   position: fixed;
@@ -167,8 +175,6 @@
   opacity: 1;
 }
 
-.des_icon{
-  
-  position: flex;
-  top:500px;
+.user-component{
+  margin: 6px 0px;
 }
