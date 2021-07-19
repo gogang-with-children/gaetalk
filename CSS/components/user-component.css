@@ -11,6 +11,9 @@
   display: flex;
   align-items: center;
 }
+.more-screen .user-component__column:first-child img {
+  background-color: var(--blue-color);
+}
 
 .user-component__avatar {
   width: 70px;
