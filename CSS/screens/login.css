@@ -8,11 +8,11 @@
 
 .welcome-header__title {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .welcome-header__text {
-  width: 70%;
+  width: 80%;
   opacity: 0.7;
 }
 
@@ -25,7 +25,7 @@
 #login-form input {
   padding: 15px 0px;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
   transition: border-color 0.3s ease-in-out;
@@ -38,10 +38,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: yellow;
+  border-color: var(--main-color);
 }
 #login-form input[type="submit"] {
-  background-color: yellow;
+  background-color: var(--main-color);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
