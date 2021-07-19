@@ -67,3 +67,31 @@
   color: black;
   font-size: 16px;
 }
+
+.profile__img-box-xl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 25px;
+  margin: 0 20px 0 0;
+  background-color: var(--blue-color);
+}
+.profile-img-xl {
+  width: 50px;
+}
+
+.profile__img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+  margin: 0 20px 0 0;
+  background-color: var(--red-color);
+}
+.profile-img {
+  width: 35px;
+}
