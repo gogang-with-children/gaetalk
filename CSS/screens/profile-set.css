@@ -32,3 +32,10 @@
 .account__btn__icons i {
   margin-bottom: 30px;
 }
+
+.account__inf img {
+  width: 100px;
+  height: 100px;
+  border-radius: 35%;
+  background-color: var(--red-color);
+}
