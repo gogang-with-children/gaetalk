@@ -15,6 +15,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "reset.css";
 
 @font-face {
   font-family: "DungGeunMo";
@@ -30,6 +31,7 @@
 
 body {
   background-color: var(--bg-color);
+  margin: 0px;
 }
 
 .main-screen {
