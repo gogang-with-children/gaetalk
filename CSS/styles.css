@@ -16,6 +16,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/profile-set.css";
 
 @font-face {
   font-family: "DungGeunMo";

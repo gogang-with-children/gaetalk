@@ -1,0 +1,39 @@
+/* 백설기 프로필 */
+.screen-header__icons .fa-2x {
+  padding-left: 20px;
+}
+.account__inf {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.account__inf .name {
+  font-size: 35px;
+  padding: 20px 0px;
+}
+.account__btn {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgba(0, 0, 0, 0.4);
+  padding: 0px 65px;
+  padding-top: 40px;
+}
+.account__btn__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account__btn__icons i {
+  margin-bottom: 30px;
+}
+
+/* 다른 사람 */
+.others {
+  justify-content: none;
+}
