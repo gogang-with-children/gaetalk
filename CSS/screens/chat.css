@@ -68,35 +68,20 @@
   animation-delay: 3s;
 }
 
-.user-img_box{
-  border-radius: 20px;
-  width: 70px;
-  height: 70px;
-margin:10px 22px;
-  background-color: #bdc5fc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.user-img_box_fir{
+.chat_img {
+  border-radius: 15px;
   width: 50px;
-  height: 60px;
+  height: 50px;
+  margin-left: 22px;
+  background-color: #bdc5fc;
 }
-.user-img_box_sec{
-  border-radius: 25px;
-  width: 70px;
-  height: 70px;
-}
-.user-img_box_thi{
-  border-radius: 25px;
-  width: 70px;
-  height: 70px;
-}
-.user-img_box_for{
-  width: 40px;
-  height: 60px;
+
+.img_back{
+  border-radius: 30px;
+  width: 73px;
+  height: 73px;
+  background-color: #bdc5fc;
+  margin-right: 19px;
 }
 
 .message__author {
@@ -224,4 +209,3 @@ margin:10px 22px;
 .user-component {
   margin: 6px 0px;
 }
-
